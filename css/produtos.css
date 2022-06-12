@@ -1,6 +1,6 @@
 header {
     background: #BBBBBB;
-    padding: 20px ;
+    padding: 20px;
 }
 
 .caixa {
@@ -18,7 +18,7 @@ nav {
 nav li {
     display: inline;
     margin: 0 0 0 15px;
-    
+
 }
 
 nav a {
@@ -52,6 +52,19 @@ nav a:hover {
     border-radius: 10px;
 }
 
+.produtos li:hover {
+    border-color: #C78C19;
+
+}
+
+.produtos li:active {
+    border-color: #088C19;
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
 .produtos h2 {
     font-size: 30px;
     font-weight: bold;
@@ -59,7 +72,7 @@ nav a:hover {
 
 .produto-descricao {
     font-size: 18px;
-    
+
 }
 
 .produto-preco {
