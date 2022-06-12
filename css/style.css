@@ -87,9 +87,9 @@ footer {
 }
 
 .copyright {
-color: #FFFFFF;
-font-size: 13px;
-margin: 20px 0 0;
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
 }
 
 main {
@@ -101,7 +101,8 @@ form {
     margin: 40px 0 40px;
 }
 
-form label, form legend {
+form label,
+form legend {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
@@ -134,4 +135,19 @@ form label, form legend {
 .enviar:hover {
     background: darkorange;
     transform: scale(1.2);
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px ;
 }
