@@ -249,5 +249,28 @@ th {
 
 .tabela {
     margin: 0 auto 10px;
-
 }
+
+/*
+
+Seleciona todos os parágrafos filhos da tabela "main".
+main > p {
+    background: red;
+}
+
+// Seleciona o primeiro elemento "Irmão da sequência".
+img + p {
+    background: blue;
+}
+
+// Seleciona todos os "p" quem vem depois de uma imagem.
+img ~ p {
+    background: yellow;
+}
+
+// Exclusão de Elementos.
+.principal p:not(#missao) {
+    background: orange;
+}
+
+*/
