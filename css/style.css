@@ -230,7 +230,7 @@ th {
     font-weight: bold;
 }
 
-.itens:before{
+.itens:before {
     content: "★";
 }
 
@@ -289,3 +289,10 @@ img ~ p {
 }
 
 */
+
+@media screen and (max-width: 480px) {
+    body {
+        background: red;
+    }
+
+}
